@@ -20,6 +20,7 @@ namespace bai_4
                 }
                 else
                 {
+                    Console.Clear();
                     int x;
                     if (NhapSoNguyenDuong(out x, nameof(x)))
                     {

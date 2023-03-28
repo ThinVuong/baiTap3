@@ -21,6 +21,7 @@ namespace bai_2
                 }
                 else
                 {
+                    Console.Clear();
                     int n;
                     if (NhapSoNguyen(out n, nameof(n)))
                     {

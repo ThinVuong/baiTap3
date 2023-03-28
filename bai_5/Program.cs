@@ -21,6 +21,7 @@ namespace bai_5
                 }
                 else
                 {
+                    Console.Clear();
                     DateTime thang;
                     Console.WriteLine("<--------------------------->");
                     if (NhapThang(out thang))

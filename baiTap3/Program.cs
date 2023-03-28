@@ -20,6 +20,7 @@ namespace bai_1
                 }
                 else
                 {
+                    Console.Clear();
                     int a;
                     if (NhapSoNguyen(out a, nameof(a)) == true)
                     {

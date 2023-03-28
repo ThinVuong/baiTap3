@@ -20,6 +20,7 @@ namespace bai_10
                 }
                 else
                 {
+                    Console.Clear();
                     int n;
                     if (NhapSoNguyenDuong(out n, nameof(n)))
                     {
@@ -47,7 +48,7 @@ namespace bai_10
             int k = 0;
             int l = 0;
 
-            for (int i = 0; i <= x; i++)
+            while (j<=x)
             {
                 result =(j==0)? "0": $"{result}, {j}";
                 if (j == 0)
